@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swanex Papper Co</title>
+
+    <meta name="description" content="Página web de Papelería">
+
+    <link rel="shortcut icon" href="img/LogoP.ico">
+
+    <!--Preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
+
+
+    <link rel="preload" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo-box">
+                <a  href="index.html">
+                    <picture>
+                        <source loading="lazy" srcset="img/LOGO - SWANWX PAPER CO PNG-03.webp" type="image/webp">
+                        <img loading="lazy" class="logo" src="/img/LOGO - SWANWX PAPER CO PNG-03.png"
+                            alt="Imagen logo"></img>
+                    </picture>
+                </a>
+
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="showcase__inicio" id="showcase">
+            <div class="showcase__container">
+            </div>
+        </section> <!-- showcase -->
+
+        <section id="contacto">
+            <div class="project-title">
+                <h2>Contacto</h2>
+                <!-- <hr> -->
+            </div>
+            <form class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__field" type="text" placeholder="Nombre" id="nombre">
+                </div>
+                <div class="campo">
+                    <label class="campo__label for=" email">Email</label>
+                    <input class="campo__field" type="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="campo">
+                    <label class="campo__label for=" mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--textarea" id="mensaje">Escribe tu mensaje</textarea>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton boton--terceario">
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor footer-container">
+
+            <div class="informacion">
+
+                <h3 class="subtitulo">Taller Creativo</h3>
+
+                <p class="ubicacion"><span>Dirección: </span>C. María Trinidad Sánchez 27, Bajos de Haina 9100</p>
+            </div>
+
+            <div class="social-media">
+                <a href="https://wa.me/send?phone=8297265318&text= Hola Viandhelys, me gustaría contratar tus servicios"
+                    target="_blank" class="social-media-icon social-media-icon--whatsapp">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="https://instagram.com/new_project97" target="_blank" class="social-media-icon social-media-icon--instagram">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="./" class="social-media-icon social-media-icon--facebook">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+            </div>
+
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/35db202371.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
